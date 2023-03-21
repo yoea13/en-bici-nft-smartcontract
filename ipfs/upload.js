@@ -23,8 +23,8 @@ async function run() {
       ],
       // update the IPFS CID to be your image CID
       image:
-        // "https://ipfs.io/ipfs/QmUg9Nq1J5uzsTdfzuHrKev6h4jxhqCWbXssjZHosh7Krx?filename=logo%20en-bici%20nft.png",
-        "https://ipfs.io/ipfs/QmcPH7iexeMtC8i8VxtmcsyUaysK69E81vRsjN8uap32hv?filename=en-bici-nft-low.mp4",
+        "https://ipfs.io/ipfs/QmUg9Nq1J5uzsTdfzuHrKev6h4jxhqCWbXssjZHosh7Krx?filename=logo%20en-bici%20nft.png",
+      // "https://ipfs.io/ipfs/QmcPH7iexeMtC8i8VxtmcsyUaysK69E81vRsjN8uap32hv?filename=en-bici-nft-low.mp4",
       description: "NFT perteneciente al canal de youtube en-bici",
     }),
   };

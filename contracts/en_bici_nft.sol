@@ -19,7 +19,7 @@ contract en_bici_nft is ERC721, ERC721URIStorage, Ownable {
 
     constructor() ERC721("En bici", "ENBICI") {}
 
-    function safeMint(address to, string memory uri) public onlyOwner {
+    function safeMint(address to, string memory uri) public {
         if (owners[to]) {
             revert en_bici_nft__onlyOneNFT();
         }

@@ -1,5 +1,6 @@
 async function main() {
-  // if you changed the name of the contract, be sure to update this here!
+  // Contract 0x53182F689C5E548cB28172ccd86d2576d3406875
+  // MATIC Contract 0x801B1ec0e3be57Ab132B33CB8be07137734A9C20
   const MyToken = await hre.ethers.getContractFactory("en_bici_nft");
 
   const nft = await MyToken.deploy();
